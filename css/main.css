@@ -1,5 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
+  background: #fcffff;
 }
 *,
 *:before,
@@ -102,6 +103,9 @@ img {
   font-size: 14px;
   line-height: 2.14;
 }
+.title-padding {
+  padding-bottom: 20px;
+}
 .logo-link {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -110,12 +114,58 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 46px;
+  padding-bottom: 105px;
 }
 .nav-header-list {
   display: flex;
+}
+.light-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 12px 30px;
+}
+.standard-button {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #f53838;
+  padding: 12px 52px;
+  border: 1px solid #F53855;
+  border-radius: 50px;
 }
 .nav-header-list-item-link {
   display: block;
   padding: 12px 20px;
   color: #4f5665;
+}
+.hero-text {
+  padding-bottom: 50px;
+}
+.main-button {
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.56;
+  color: #fcffff;
+  background: #f53838;
+  border-radius: 10px;
+  padding: 18px 84px;
+}
+.main-button:after {
+  position: absolute;
+  z-index: -1;
+  top: 42%;
+  left: 7%;
+  width: 86%;
+  height: 100%;
+  content: "";
+  background-color: rgba(245, 56, 56, 0.35);
+  filter: blur(28px);
+}
+.hero-inner {
+  padding-top: 95px;
+  padding-bottom: 150px;
 }
