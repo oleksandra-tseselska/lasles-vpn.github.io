@@ -110,6 +110,12 @@ img {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.text-bold {
+  font-weight: bold;
+}
+.text-500 {
+  font-weight: 500;
+}
 .header-flex {
   display: flex;
   justify-content: space-between;
