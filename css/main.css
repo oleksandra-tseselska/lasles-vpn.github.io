@@ -68,6 +68,40 @@ img {
 .red-icon {
   color: #f53838;
 }
+.almost-black-text {
+  color: #0b132a;
+}
+.gray-text {
+  color: #4f5665;
+}
+.heading-text {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+}
+.title-text {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.43;
+}
+.title-small-text {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.28;
+}
+.subtitle-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+}
+.pain-text {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.pain-small-text {
+  font-size: 14px;
+  line-height: 2.14;
+}
 .logo-link {
   padding-top: 12px;
   padding-bottom: 12px;
