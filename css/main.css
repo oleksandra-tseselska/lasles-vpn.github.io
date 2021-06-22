@@ -66,15 +66,6 @@ img {
 .offset-1 {
   margin-left: 8.33333%;
 }
-.red-icon {
-  color: #f53838;
-}
-.almost-black-text {
-  color: #0b132a;
-}
-.gray-text {
-  color: #4f5665;
-}
 .heading-text {
   font-weight: 500;
   font-size: 50px;
@@ -103,8 +94,29 @@ img {
   font-size: 14px;
   line-height: 2.14;
 }
+.value-text {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+}
+.value-title-text {
+  font-size: 20px;
+  line-height: 1.5;
+}
 .title-padding {
   padding-bottom: 20px;
+}
+.text-capitalize {
+  text-transform: capitalize;
+} 
+.almost-black-text {
+  color: #0b132a;
+}
+.gray-text {
+  color: #4f5665;
+}
+.red-icon {
+  color: #f53838;
 }
 .logo-link {
   padding-top: 12px;
@@ -152,7 +164,7 @@ img {
 }
 .main-button {
   position: relative;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.56;
   color: #fcffff;
@@ -174,4 +186,73 @@ img {
 .hero-inner {
   padding-top: 95px;
   padding-bottom: 150px;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #fcffff;
+  border-radius: 10px;
+  padding: 70px 100px;
+}
+.stats:after {
+  position: absolute;
+  z-index: -1;
+  top: 26%;
+  left: 3%;
+  width: 94%;
+  height: 94%;
+  content: "";
+  background: #0d1025;
+  opacity: 0.06;
+  filter: blur(114px);
+}
+.stats-item {
+  display: flex;
+}
+.stats-item-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #ffecec;
+  font-size: 24px;
+  margin-right: 40px;
+}
+.status-item-value {
+  display: block;
+}
+.status-item-title {
+  display: block;
+}
+.features-caption {
+  padding-right: 88px;
+}
+.features-text {
+  padding-right: 70px;
+  padding-bottom: 20px;
+}
+.features-list {
+  padding-bottom: 126px
+}
+.features-list-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.features-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #2fab73;
+  border-radius: 50%;
+  font-size: 8px;
+  color: #fcffff;
+}
+.features-icon-title {
+  padding-left: 12px;
 }
