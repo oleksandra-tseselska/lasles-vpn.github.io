@@ -109,6 +109,9 @@ img {
 .text-capitalize {
   text-transform: capitalize;
 } 
+.text-center {
+  text-align: center;
+}
 .almost-black-text {
   color: #0b132a;
 }
@@ -255,4 +258,85 @@ img {
 }
 .features-icon-title {
   padding-left: 12px;
+}
+.choose-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.choose-text {
+  padding-right: 300px;
+  padding-bottom: 60px;
+  padding-left: 300px;
+}
+.choose-plan {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  height: 760px;
+}
+.choose-plan-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  height: 460px;
+}
+.choose-list-item {
+  padding-bottom: 7px;  
+}
+.choose-icon {
+  color: #2fab73;
+  font-size: 12px;
+  padding-right: 26px;
+}
+.choose-plan-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choose-plan-action-free {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.2;
+  padding-bottom: 20px;
+}
+.choose-plan-action-value {
+  padding-bottom: 20px;
+}
+.choose-plan-action-price {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.2;
+}
+.choose-plan-action-text {
+  font-size: 25px;
+  line-height: 1.2;
+}
+.choose-plan-action-button {
+  color: #f53838;
+  border: 2px solid #f53838;
+  border-radius: 50px;
+  padding: 6px 61px;
+}
+.choose-plan-action-button--alt {
+  position: relative;
+  color: #fcffff;
+  background: #F53838;
+  border-radius: 50px;
+  padding: 8px 63px;
+}
+.choose-plan-action-button--alt:after {
+  position: absolute;
+  z-index: -1;
+  top: 42%;
+  left: 12%;
+  width: 72%;
+  height: 100%;
+  content: "";
+  background-color: rgba(245, 56, 56, 0.35);
+  filter: blur(28px);
 }
