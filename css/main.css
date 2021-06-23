@@ -128,6 +128,14 @@ img {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.logo-link:hover {
+  transform: scale(1.07);
+}
+.logo-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f53838;
+  border-radius: 10px;
+}
 .text-bold {
   font-weight: bold;
 }
@@ -136,6 +144,40 @@ img {
 }
 .text-normal {
   font-weight: normal;
+}
+.color-focus:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f53838;
+  border-radius: 10px;
+}
+.black-focus:focus {
+  outline: none;
+  box-shadow: 0 0 0 2.5px black;
+  border-radius: 10px;
+}
+.radius-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 1.5px #ee1616;
+  border-radius: 50px;
+}
+.radius-button-black:focus {
+  outline: none;
+  box-shadow: 0 0 0 1.5px black;
+  border-radius: 50px;
+}
+.radius-button-black-fat:focus {
+  outline: none;
+  box-shadow: 0 0 0 2.5px black;
+  border-radius: 50px;
+}
+.link-hover-scale:hover {
+  transform: scale(1.2);
+}
+.hover-scale-small:hover {
+  transform: scale(1.1);
+}
+.hover-scale-smaller:hover {
+  transform: scale(1.05);
 }
 .header-flex {
   display: flex;
@@ -482,14 +524,33 @@ img {
   padding-bottom: 35px;
 }
 .footer-logo {
-  display: block;
-  padding-bottom: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer-logo:hover {
+  transform: scale(1.07);
+}
+.footer-logo:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f53838;
+  border-radius: 10px;
 }
 .social-list {
   display: inline-flex;
   gap: 22px;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.social-list-link {
+  display: inline-block;
+}
+.social-list-link:hover {
+  transform: scale(1.2);
+}
+.social-list-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f53838;
+  border-radius: 50%;
 }
 .social-item-icon {
   position: relative;
@@ -518,8 +579,18 @@ img {
     color: #afb5c0;
 }
 .footer-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   padding-top: 20px;
+}
+.footer-list-text-link {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer-list-text-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f53838;
+  border-radius: 10px;
+}
+.footer-list-text-link:hover {
+  transform: scale(1.1);
 }

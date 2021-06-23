@@ -33,40 +33,41 @@
       <ul class="nav-header-list pain-text">
         <li class="nav-header-list-item">
           <a 
-            class="nav-header-list-item-link"
-            href="#"
+            class="nav-header-list-item-link color-focus link-hover-scale"
+            href="#hero-section"
             >
               About
           </a>
         </li>
         <li class="nav-header-list-item">
           <a 
-            class="nav-header-list-item-link"
-            href="#"
+            class="nav-header-list-item-link color-focus link-hover-scale"
+            href="#features"
             >
               Features
           </a>
         </li>
         <li class="nav-header-list-item">
           <a
-            class="nav-header-list-item-link" 
-            href="#"
+            class="nav-header-list-item-link color-focus link-hover-scale" 
+            href="#choose-plan"
             >
               Pricing
           </a>
         </li>
         <li class="nav-header-list-item">
           <a 
-            class="nav-header-list-item-link"
-            href="#"
+            class="nav-header-list-item-link color-focus link-hover-scale"
+            href="#testimonials"
             >
               Testimonials
           </a>
         </li>
         <li class="nav-header-list-item">
           <a 
-            class="nav-header-list-item-link"
+            class="nav-header-list-item-link color-focus link-hover-scale"
             href="#"
+            aria-label="help-this-link-coming-soon"
             >
               Help
           </a>
@@ -74,12 +75,18 @@
       </ul>
     </nav>
     <div>
-      <button class="light-button almost-black-text">Sing In</button>
-      <button class="standard-button">Sing Up</button>
+      <button 
+        class="light-button almost-black-text link-hover-scale color-focus"
+        >
+          Sing In
+      </button>
+      <button class="standard-button hover-scale-small radius-button">
+        Sing Up
+      </button>
     </div>
   </header>
   <main>
-    <section class="container">
+    <section id="hero-section" class="container">
       <div class="row">
         <div class="col col-6">
           <h1 class="heading-text almost-black-text title-padding">
@@ -95,7 +102,9 @@
             </span> 
             discover interesting features from us.
           </p>
-          <button class="main-button">Get Started</button>
+          <button class="main-button hover-scale-smaller black-focus">
+            Get Started
+          </button>
         </div>
         <div class="col col-6">
           <img 
@@ -169,7 +178,9 @@
           >
         </div>
         <div class="offset-1 col col-5">
-          <h2 class="features-caption title-text almost-black-text 
+          <h2 
+            id="features"
+            class="features-caption title-text almost-black-text 
             title-padding text-capitalize"
           >
             We provide many features you can use
@@ -216,8 +227,11 @@
       </div>
     </section>
     <section class="container">
-      <h2 class="choose-title title-text almost-black-text">
-        Choose Your Plan
+      <h2
+        id="choose-plan"
+        class="choose-title title-text almost-black-text"
+        >
+          Choose Your Plan
       </h2>
       <p class="choose-text pain-text gray-text">
         <span>
@@ -271,8 +285,11 @@
               <span class="choose-plan-action-free">
                 Free
               </span>
-              <button class="choose-plan-action-button pain-text text-bold">
-                Select
+              <button 
+                class="choose-plan-action-button pain-text text-bold
+                hover-scale-small radius-button-black"
+                >
+                  Select
               </button>
             </div>
           </div>
@@ -330,8 +347,11 @@
                   / mo
                 </span>
               </div>
-              <button class="choose-plan-action-button pain-text text-bold">
-                Select
+              <button 
+                class="choose-plan-action-button pain-text text-bold 
+                hover-scale-small radius-button-black"
+                >
+                  Select
               </button>
             </div>
           </div>
@@ -344,8 +364,11 @@
                 src="./img/plan_section/premium_plan.svg" 
                 alt="box-with-five-balloons-and-fireworks"
               >
-              <h3 class="choose-plan-desc-title subtitle-text almost-black-text">
-                Premium Plan
+              <h3 
+                id="download"
+                class="choose-plan-desc-title subtitle-text almost-black-text"
+                >
+                  Premium Plan
               </h3>
               <ul>
                 <li class="choose-list-item">
@@ -395,8 +418,11 @@
                   / mo
                 </span>
               </div>
-              <button class="choose-plan-action-button--alt pain-text text-bold">
-                Select
+              <button 
+                class="choose-plan-action-button--alt pain-text text-bold
+                hover-scale-small radius-button-black-fat"
+                >
+                    Select
               </button>
             </div>
           </div>
@@ -404,9 +430,12 @@
       </div>
     </section>
     <section class="container">
-      <h2 class="review-title title-small-text almost-black-text">
-        <span>Trusted by Thousands</span> 
-        <span>of Happy Customer</span>
+      <h2 
+        id="testimonials"
+        class="review-title title-small-text almost-black-text"
+        >
+          <span>Trusted by Thousands</span> 
+          <span>of Happy Customer</span>
       </h2>
       <p class="review-desc pain-text gray-text">
         <span>
@@ -530,7 +559,7 @@
           Let's subscribe with us and find the fun.
         </p>
       </div>
-      <button class="subscribe-button">
+      <button class="subscribe-button hover-scale-smaller black-focus">
         Subscribe Now
       </button>
     </section>
@@ -538,7 +567,7 @@
   <footer class="container footer-container">
     <div class="row">
       <div class="col offset-1 col-4">
-        <a class="footer-logo" href="#">
+        <a class="footer-logo color-focus" href="#">
           <img src="./img/logo.svg" alt="lasles-vpn-logo">
         </a>
         <p class="pain-text gray-text">
@@ -549,20 +578,41 @@
           and has high security.
         </p>
         <ul class="social-list">
-          <li class="social-list-item">
-            <span class="social-item-icon">
-              <span class="icon-facebook red-icon"></span>
-            </span>
+          <li>
+            <a
+              class="social-list-link"
+              href="https://uk-ua.facebook.com/" 
+              target="_blank"
+              aria-label="our-facebook"
+              >
+                <span class="social-item-icon">
+                  <span class="icon-facebook red-icon"></span>
+                </span>
+            </a>
           </li>
-          <li class="social-list-item">
-            <span class="social-item-icon">
-              <span class="icon-twitter red-icon"></span>
-            </span>
+          <li>
+            <a
+              class="social-list-link"
+              href="https://twitter.com/" 
+              target="_blank"
+              aria-label="our-twitter"
+              >
+                <span class="social-item-icon">
+                  <span class="icon-twitter red-icon"></span>
+                </span>
+            </a>
           </li>
-          <li class="social-list-item">
-            <span class="social-item-icon">
-              <span class="icon-instagram red-icon"></span>
-            </span>
+          <li>
+            <a
+              class="social-list-link"
+              href="https://instagram.com/" 
+              target="_blank"
+              aria-label="our-instagram"
+              >
+                <span class="social-item-icon">
+                  <span class="icon-instagram red-icon"></span>
+                </span>
+            </a>
           </li>
         </ul>
         <p class="pain-text footer-edition">
@@ -575,57 +625,138 @@
             <li class="col col-4 subtitle-text almost-black-text">
               Product
               <ul class="footer-list">
-                <li class="pain-text text-normal gray-text">
-                  Download
+                <li>
+                  <a 
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#download"
+                    >
+                      Download
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Pricing
+                <li>
+                  <a 
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#choose-plan"
+                    >
+                      Pricing
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Locations
+                <li>
+                  <a 
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="locations-this-link-coming-soon"
+                    >
+                      Locations
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Server
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="server-this-link-coming-soon"
+                    >
+                      Server
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Countries
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="countries-this-link-coming-soon"
+                    >
+                      Countries
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Blog
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="blog-this-link-coming-soon"
+                    >
+                      Blog
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="col col-4 subtitle-text almost-black-text">
               Engage
               <ul class="footer-list">
-                <li class="pain-text text-normal gray-text">
-                  LaslesVPN ? 
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#hero-section"
+                    >
+                      LaslesVPN ?
+                  </a> 
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  FAQ
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="faq-this-link-coming-soon"
+                    >
+                      FAQ
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Tutorials
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="tutorials-this-link-coming-soon"
+                    >
+                      Tutorials
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  About Us
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="about-us-this-link-coming-soon"
+                    >
+                      About Us
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Privacy Policy
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="privacy-policy-this-link-coming-soon"
+                    >
+                      Privacy Policy
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Terms of Service
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="terms-of-service-this-link-coming-soon"
+                    >
+                      Terms of Service
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="col col-4 subtitle-text almost-black-text">
               Earn Money
               <ul class="footer-list">
-                <li class="pain-text text-normal gray-text">
-                  Affiliate
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="affiliate-this-link-coming-soon"
+                    >
+                      Affiliate
+                  </a>
                 </li>
-                <li class="pain-text text-normal gray-text">
-                  Become Partner
+                <li>
+                  <a
+                    class="footer-list-text-link pain-text text-normal gray-text"
+                    href="#"
+                    aria-label="become-partner-this-link-coming-soon"
+                    >
+                      Become Partner
+                  </a>
                 </li>
               </ul>
             </li>
