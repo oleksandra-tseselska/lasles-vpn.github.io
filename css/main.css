@@ -150,24 +150,18 @@ img {
   box-shadow: 0 0 0 2px #f53838;
   border-radius: 10px;
 }
-.black-focus:focus {
+.colored-soaring {
+  display: inline-flex;
+  padding: 3px;
+}
+.colored-soaring:focus {
   outline: none;
-  box-shadow: 0 0 0 2.5px black;
+  box-shadow: 0 0 0 2px #F53838;
   border-radius: 10px;
 }
 .radius-button:focus {
   outline: none;
   box-shadow: 0 0 0 1.5px #ee1616;
-  border-radius: 50px;
-}
-.radius-button-black:focus {
-  outline: none;
-  box-shadow: 0 0 0 1.5px black;
-  border-radius: 50px;
-}
-.radius-button-black-fat:focus {
-  outline: none;
-  box-shadow: 0 0 0 2.5px black;
   border-radius: 50px;
 }
 .link-hover-scale:hover {
@@ -193,7 +187,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  padding: 12px 30px;
+  padding: 12px 25px;
+  margin-right: 10px;
 }
 .standard-button {
   display: inline-block;
@@ -211,7 +206,7 @@ img {
   color: #4f5665;
 }
 .hero-text {
-  padding-bottom: 50px;
+  padding-bottom: 47px;
 }
 .main-button {
   position: relative;
@@ -221,7 +216,7 @@ img {
   color: #fcffff;
   background: #f53838;
   border-radius: 10px;
-  padding: 18px 84px;
+  padding: 18px 86px;
 }
 .main-button:after {
   position: absolute;
@@ -235,7 +230,7 @@ img {
   filter: blur(28px);
 }
 .hero-inner {
-  padding-top: 95px;
+  padding-top: 92px;
   padding-bottom: 150px;
 }
 .stats {
@@ -341,7 +336,7 @@ img {
   align-items: center;
 }
 .choose-plan-desc-img {
-  padding-top: 80px;
+  padding-top: 77px;
   padding-bottom: 30px;
 }
 .choose-plan-desc-title {
@@ -367,7 +362,7 @@ img {
   padding-bottom: 20px;
 }
 .choose-plan-action-value {
-  padding-bottom: 20px;
+  padding-bottom: 17px;
 }
 .choose-plan-action-price {
   font-weight: 500;
@@ -383,15 +378,14 @@ img {
   border: 2px solid #f53838;
   border-radius: 50px;
   padding: 6px 61px;
-  margin-bottom: 50px;
 }
 .choose-plan-action-button--alt {
+  display: inline-flex;
   position: relative;
   color: #fcffff;
   background: #F53838;
   border-radius: 50px;
   padding: 8px 63px;
-  margin-bottom: 50px;
 }
 .choose-plan-action-button--alt:after {
   position: absolute;
@@ -403,6 +397,16 @@ img {
   content: "";
   background-color: rgba(245, 56, 56, 0.35);
   filter: blur(28px);
+}
+.action-button-colored-soaring {
+  display: inline-flex;
+  padding: 3px;
+  margin-bottom: 47px;
+}
+.action-button-colored-soaring:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F53838;
+  border-radius: 50px;
 }
 .review-title {
   display:flex;
@@ -463,13 +467,65 @@ img {
   font-size: 13px;
   color: #fea250;
 }
-/* .carousel-control-row {
+.carousel-control-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 43px;
+  margin-bottom: 88px;
 }
-.control-rewind {
+.control-rewind-panel {
+  display: inline-flex;
+  gap: 15px;
+}
+.control-rewind-activ {
+  display: inline-flex;
   width: 45px;
   height: 15px;
   background-color: #f53838;
-} */
+  border-radius: 50px;
+}
+.control-rewind-colored-inactive {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  background-color: #ddE0E4;
+  border-radius: 50%;
+}
+.carousel-controls-btn {
+  display: inline-flex;
+  gap: 14px;
+}
+.controls-btn-left {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #F53838;
+  border-radius: 50%;
+  color: #f53838;
+  font-size: 18px;
+}
+.controls-btn-right {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f53838;
+  border-radius: 50%;
+  color: #fcffff;
+  font-size: 18px;
+}
+.colored-soaring-round {
+  padding: 3px;
+}
+.colored-soaring-round:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F53838;
+  border-radius: 50%;
+}
 .subscribe-section {
   display: flex;
   justify-content: space-between;
@@ -497,16 +553,15 @@ img {
   padding-bottom: 20px;
 }
 .subscribe-button {
+  display: inline-flex;
   position: relative;
-  height: 60px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.56;
   color: #fcffff;
   background: #f53838;
   border-radius: 10px;
-  padding-right: 68px;
-  padding-left: 68px;
+  padding: 18px 74px;
 }
 .subscribe-button:after {
   position: absolute;
@@ -545,7 +600,7 @@ img {
   display: inline-block;
 }
 .social-list-link:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 .social-list-link:focus {
   outline: none;
