@@ -170,14 +170,27 @@ img {
   box-shadow: 0 0 0 1.5px #ee1616;
   border-radius: 50px;
 }
-.link-hover-scale:hover {
-  transform: scale(1.2);
+.link-hover:hover {
+  color: #f53838;
 }
-.hover-scale-small:hover {
+.active-scale:active {
+  transform: scale(1.15);
+}
+.active-scale-small:active {
   transform: scale(1.1);
 }
-.hover-scale-smaller:hover {
+.active-scale-smaller:active {
   transform: scale(1.05);
+}
+.white-red:hover {
+  color: #fcffff;
+  background-color: #f53838;
+}
+.red-wite:hover {
+  color: #f53838;
+  background-color: #fcffff;
+  border: 2px solid #f53838;
+  box-shadow: 10px 10px 0 rgba(245, 56, 56, 0.35);
 }
 .header-flex {
   display: flex;
@@ -205,6 +218,8 @@ img {
   padding: 12px 52px;
   border: 1px solid #F53855;
   border-radius: 50px;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
 }
 .nav-header-list-item-link {
   display: block;
@@ -220,20 +235,11 @@ img {
   font-size: 16px;
   line-height: 1.56;
   color: #fcffff;
-  background: #f53838;
+  background-color: #f53838;
   border-radius: 10px;
   padding: 18px 86px;
-}
-.main-button:after {
-  position: absolute;
-  z-index: -1;
-  top: 42%;
-  left: 7%;
-  width: 86%;
-  height: 100%;
-  content: "";
-  background-color: rgba(245, 56, 56, 0.35);
-  filter: blur(28px);
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 0.3s;
 }
 .hero-inner {
   padding-top: 92px;
@@ -400,25 +406,8 @@ img {
   border: 2px solid #f53838;
   border-radius: 50px;
   padding: 6px 61px;
-}
-.choose-plan-action-button--alt {
-  display: inline-flex;
-  position: relative;
-  color: #fcffff;
-  background: #F53838;
-  border-radius: 50px;
-  padding: 8px 63px;
-}
-.choose-plan-action-button--alt:after {
-  position: absolute;
-  z-index: -1;
-  top: 42%;
-  left: 12%;
-  width: 72%;
-  height: 100%;
-  content: "";
-  background-color: rgba(245, 56, 56, 0.35);
-  filter: blur(28px);
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
 }
 .action-button-colored-soaring {
   display: inline-flex;
@@ -531,7 +520,7 @@ img {
   display: inline-flex;
   gap: 14px;
 }
-.controls-btn-left {
+.controls-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -541,17 +530,8 @@ img {
   border-radius: 50%;
   color: #f53838;
   font-size: 18px;
-}
-.controls-btn-right {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  background-color: #f53838;
-  border-radius: 50%;
-  color: #fcffff;
-  font-size: 18px;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
 }
 .colored-soaring-round {
   padding: 3px;
@@ -596,7 +576,8 @@ img {
   background: #f53838;
   border-radius: 10px;
   padding: 18px 74px;
-  box-shadow: 0 20px 30px rgba(245, 56, 56, 0.35);
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 0.3s;
 }
 .footer-container {
   padding-top: 80px;
@@ -623,9 +604,6 @@ img {
 .social-list-link {
   display: inline-block;
 }
-.social-list-link:hover {
-  transform: scale(1.3);
-}
 .social-list-link:focus {
   outline: none;
   box-shadow: 0 0 0 2px #f53838;
@@ -641,6 +619,9 @@ img {
   border-radius: 50%;
   font-size: 16px;
   background-color: #fcffff;
+  color: #f53838;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
 }
 .social-item-icon:after {
   position: absolute;
@@ -671,5 +652,5 @@ img {
   border-radius: 10px;
 }
 .footer-list-text-link:hover {
-  transform: scale(1.1);
+  color: #f53838;
 }
